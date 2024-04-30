@@ -11,7 +11,7 @@
 # Usage:
 # MYSQL_PASSWORD=YourPassword bash run-mariabackup.sh
 
-MYSQL_USER=backup
+MYSQL_USER=${MYSQL_USER:-backup}
 #MYSQL_PASSWORD=YourPassword
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
