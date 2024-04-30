@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -e
 # Create a backup user
 # CREATE USER 'backup'@'localhost' IDENTIFIED BY 'YourPassword';
 # MariaDB < 10.5:
