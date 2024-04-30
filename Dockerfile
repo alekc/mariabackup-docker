@@ -8,5 +8,6 @@ RUN apt-get update  \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
+COPY run-backup.sh /app/run-backup.sh
 
-ENTRYPOINT ["./automysqlbackup"]
+ENTRYPOINT ["/app/run-backup.sh"]
