@@ -1,4 +1,5 @@
 #!/bin/sh
+set -x
 
 # Create a backup user
 # CREATE USER 'backup'@'localhost' IDENTIFIED BY 'YourPassword';
